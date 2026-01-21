@@ -16,16 +16,16 @@ We need someway to display the AI output. For now we will just output it in the 
 We will just save them in a temp directory, we must make sure to delete the directory after ending program. Hence we need 
 some mechanism to signify program end and allow clean up
 <br><br>
-# Developmeny Phases
-PHASE 1:
+# Development Phases
+## PHASE 1:
 Get basic screenshot_agent, controller, coach functionality running. Make sure
 cMake can at least run. No error handling
-PHASE 2:
+## PHASE 2:
 Testing. Try actually use it and see what happens. Output to terminal (cout). Add error handling 
 (use AI for this, make sure git is set up at this point so we can review AI changes)
-PHASE 3:
+## PHASE 3:
 Refine prompt so that it is more useful
-PHASE 4:
+## PHASE 4:
 Vibecode a frontend, then hit gold or plat with ease
 <br><br>
 # Random idea dump
