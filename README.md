@@ -1,11 +1,11 @@
 # Background
-Ok so this is an app for game analysis in league. Ideally what we would like to do is to take a screenshot of the 
+Ok, this is an app for game analysis in league. Ideally what we would like to do is to take a screenshot of the 
 game status every second. When we have 5 frames, we will make a call to an LLM to parse the information and
 then give us insights. Such as: the correct build path against the opposing team is ... or the enemy jungler is
 likely going to be here etc. It basically will provide the user with a bunch of signals that will help 
 them determine how the game might progress.
 <br><br>
-This doesn't have to be used for league, it could be used for sports games, a presidential debate. Anything
+Note: this doesn't have to be used for league, it could be used for sports games, a presidential debate. Anything
 that you can watch in real time on your device.
 <br><br>
 The program is not complicated at all. Basically we will have two entities running. One entity A is constantly
