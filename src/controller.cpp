@@ -10,7 +10,7 @@
 int Controller::run() {
     // create the processes
     auto screenshot_agent = std::make_unique<ScreenshotAgent>();
-    auto league_analyst = std::make_unique<LeagueAnalayst>();
+    auto league_analyst = std::make_unique<LeagueAnalyst>();
 
     // business logic
     screenshot_agent->bind_listener(league_analyst->get_listener());

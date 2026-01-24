@@ -14,6 +14,7 @@ public:
     int run() override;
     int kill() override;
 
+    void analyse(const std::string &frame_path);
     FrameListener& get_listener();
 private:
     std::unique_ptr<FrameListener> listener_;

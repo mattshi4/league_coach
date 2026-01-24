@@ -31,7 +31,6 @@ Testing. Try actually use it and see what happens. Output to terminal (cout). Ad
 Refine prompt so that it is more useful
 ## PHASE 4:
 Vibecode a frontend, then using our learnings we can hit plat with ease
-<br><br>
 # Development journal
 How do we maintain a the chat history with the LLM API? Doesn't look like there is 
 CPP support (for gemini at least, gemini is the only free one). There are a couple ideas

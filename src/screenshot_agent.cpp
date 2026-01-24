@@ -18,7 +18,9 @@
 // will continually update the 
 void timer_begin(std::atomic<bool> &go) {
     while (true) {
+        std::cout << "start sleep\n";
         std::this_thread::sleep_until(std::chrono::steady_clock::now() + std::chrono::seconds(1));
+        std::cout << "end sleep\n";
         go.store(true);
     }
 };
@@ -44,10 +46,13 @@ int ScreenshotAgent::run() {
             // we can use the -D option to specify which display. By default 
             // we should assume that league is on the main display
             // TODO: write an objective C function that will take screenshots for us
-            std::string cmd = ss_command + frame_dir + "/" + std::to_string(photo_num) + ".png";
+            std::string frame_path = frame_dir + "/" + std::to_string(photo_num) + ".png";
+            std::string cmd = ss_command + frame_path;
             std::system(cmd.c_str());
-
             std::cout << "A frame has been saved\n";
+
+            notify_listeners(frame_path);
+            std::cout << "Listeners have been notified\n";
 
             photo_num++;
         }
@@ -62,14 +67,12 @@ int ScreenshotAgent::kill() {
     return 0;
 }
 
-int ScreenshotAgent::get_frame() {
-    return 0;
+void ScreenshotAgent::notify_listeners(std::string &frame_path) {
+    for (FrameListener &l : listeners) {
+        l.notify(frame_path);
+    }
 }
 
-int ScreenshotAgent::notify_listeners() {
-    return 0;
-}
-
-int ScreenshotAgent::bind_listener(FrameListener &listener) {
-    return 0;
+void ScreenshotAgent::bind_listener(FrameListener &listener) {
+    listeners.push_back(listener);
 }
