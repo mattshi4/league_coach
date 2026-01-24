@@ -9,6 +9,7 @@ add_executable(league_coach
     src/controller.cpp
     src/screenshot_agent.cpp
     src/league_coach.cpp
+    src/frame_listener.cpp
 )
 
 target_include_directories(league_coach PRIVATE include)
