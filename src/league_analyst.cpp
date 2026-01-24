@@ -1,21 +1,21 @@
-#include "league_coach.h"
+#include "league_analyst.h"
 
 #include <memory>
 #include <iostream>
 
-LeagueCoach::LeagueCoach() {
+LeagueAnalyst::LeagueAnalyst() {
     listener_ = std::make_unique<FrameListener>();
     FrameListener &l = *listener_;
 }
 
-int LeagueCoach::run() {
+int LeagueAnalyst::run() {
     return 0;
 }
 
-int LeagueCoach::kill() {
+int LeagueAnalyst::kill() {
     return 0;
 }
 
-FrameListener& LeagueCoach::get_listener() {
+FrameListener& LeagueAnalyst::get_listener() {
     return *listener_;
 }

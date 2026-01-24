@@ -7,9 +7,9 @@
 #include <vector>
 #include <string>
 
-class LeagueCoach : public Process {
+class LeagueAnalyst : public Process {
 public:
-    LeagueCoach();
+    LeagueAnalyst();
 
     int run() override;
     int kill() override;
