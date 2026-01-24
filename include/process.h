@@ -4,6 +4,6 @@
 class Process {
 public:
     virtual ~Process() = default;
-    virtual int run();
-    virtual int kill();
+    virtual int run() = 0;
+    virtual int kill() = 0;
 };

@@ -1,4 +1,5 @@
-#include <screenshot_agent.h>
+#include "screenshot_agent.h"
+#include "frame_listener.h"
 
 #include <filesystem>
 #include <atomic>
@@ -40,11 +41,28 @@ int ScreenshotAgent::run() {
             // we can use the -D option to specify which display. By default 
             // we should assume that league is on the main display
             // TODO: write an objective C function that will take screenshots for us
-            std::string save_path = frame_dir + "/" std::to_string(photo_num);
             std::string cmd = ss_command + frame_dir + "/" + std::to_string(photo_num);
-            std::system(cmd.c_str);
+            std::system(cmd.c_str());
 
             photo_num++;
         }
     }
+
+    return 0;
+}
+
+int ScreenshotAgent::kill() {
+    return 0;
+}
+
+int ScreenshotAgent::get_frame() {
+    return 0;
+}
+
+int ScreenshotAgent::notify_listeners() {
+    return 0;
+}
+
+int ScreenshotAgent::bind_listener(FrameListener &listener) {
+    return 0;
 }

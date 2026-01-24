@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/league_coach.dir/src/main.cpp.o CMakeFiles/league_coach.dir/src/controller.cpp.o CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o CMakeFiles/league_coach.dir/src/league_coach.cpp.o -o league_coach

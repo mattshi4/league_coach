@@ -1,7 +1,15 @@
-#include "league_coach"
+#include "league_coach.h"
 
-class Coach {
-public:
-    int run();
-    int kill();
+#include <string>
+
+int LeagueCoach::run() {
+    return 0;
+}
+
+int LeagueCoach::kill() {
+    return 0;
+}
+
+void LeagueCoach::notify(std::string frame_path) {
+    return;
 }

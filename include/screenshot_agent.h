@@ -4,7 +4,6 @@
 #include "process.h"
 
 #include <vector>
-#include <vector>
 #include <string>
 
 class ScreenshotAgent : public Process {
@@ -15,7 +14,7 @@ public:
 
     int get_frame();
     int notify_listeners();
-    int bind_listener(FrameListener listener);
+    int bind_listener(FrameListener &listener);
 private:
     std::vector<FrameListener> listeners;
     bool running;

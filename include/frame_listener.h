@@ -5,5 +5,5 @@
 class FrameListener {
 public:
     virtual ~FrameListener() = default;
-    virtual void notify(std::string frame_path);
+    virtual void notify(std::string frame_path) = 0;
 };
