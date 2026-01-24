@@ -1,3 +1,0 @@
-/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/league_coach.dir
-/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/edit_cache.dir
-/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/rebuild_cache.dir
