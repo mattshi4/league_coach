@@ -3,5 +3,5 @@
 #include <string>
 
 void FrameListener::notify(std::string frame_path) {
-    return;
+    callback_(frame_path);
 }

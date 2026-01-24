@@ -3,6 +3,8 @@
 
 #include <filesystem>
 #include <atomic>
+#include <functional>
+#include <iostream>
 #include <string>
 #include <thread>
 #include <chrono>
@@ -30,7 +32,8 @@ int ScreenshotAgent::run() {
     std::string ss_command = "screencapture -D1 ";
 
     std::atomic<bool> go(false);
-    timer_begin(go);
+    // TODO: there is def a better way to do this, can probs decouple from this func
+    std::thread(timer_begin, std::ref(go)).detach();
 
     int photo_num = 0;
     while (running) {
@@ -41,8 +44,10 @@ int ScreenshotAgent::run() {
             // we can use the -D option to specify which display. By default 
             // we should assume that league is on the main display
             // TODO: write an objective C function that will take screenshots for us
-            std::string cmd = ss_command + frame_dir + "/" + std::to_string(photo_num);
+            std::string cmd = ss_command + frame_dir + "/" + std::to_string(photo_num) + ".png";
             std::system(cmd.c_str());
+
+            std::cout << "A frame has been saved\n";
 
             photo_num++;
         }
@@ -52,6 +57,8 @@ int ScreenshotAgent::run() {
 }
 
 int ScreenshotAgent::kill() {
+    // I want to keep the folder for now
+    // std::filesystem::remove_all(frame_dir);
     return 0;
 }
 

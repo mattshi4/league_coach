@@ -1,9 +1,11 @@
 #include "league_coach.h"
 
 #include <memory>
+#include <iostream>
 
 LeagueCoach::LeagueCoach() {
     listener_ = std::make_unique<FrameListener>();
+    FrameListener &l = *listener_;
 }
 
 int LeagueCoach::run() {
