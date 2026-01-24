@@ -4,7 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/bytedance/Documents/unsw/personal/league_coach/include
+CXX_INCLUDES = -I"/Users/matts/Documents/Personal projects/league_coach/include"
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
+
+CXX_FLAGS = -std=gnu++20 -arch arm64
 

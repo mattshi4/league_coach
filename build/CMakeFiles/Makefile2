@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/Documents/unsw/personal/league_coach
+CMAKE_SOURCE_DIR = "/Users/matts/Documents/Personal projects/league_coach"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/Documents/unsw/personal/league_coach/build
+CMAKE_BINARY_DIR = "/Users/matts/Documents/Personal projects/league_coach/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/league_coach.dir/clean
 CMakeFiles/league_coach.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/league_coach.dir/build.make CMakeFiles/league_coach.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/league_coach.dir/build.make CMakeFiles/league_coach.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target league_coach"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target league_coach"
 .PHONY : CMakeFiles/league_coach.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/league_coach.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/league_coach.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" 0
 .PHONY : CMakeFiles/league_coach.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ league_coach: CMakeFiles/league_coach.dir/rule
 # codegen rule for target.
 CMakeFiles/league_coach.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/league_coach.dir/build.make CMakeFiles/league_coach.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target league_coach"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" --progress-num=1,2,3,4,5 "Finished codegen for target league_coach"
 .PHONY : CMakeFiles/league_coach.dir/codegen
 
 # clean rule for target.

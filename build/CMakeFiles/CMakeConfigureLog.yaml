@@ -20,10 +20,12 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -33,27 +35,29 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
-      - "/Users/bytedance/.local/bin/uname"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/uname"
+      - "/opt/homebrew/opt/openjdk@17/bin/uname"
+      - "/Users/matts/.local/bin/uname"
+      - "/Users/matts/.local/share/nvim/mason/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/uname"
       - "/usr/local/bin/uname"
       - "/System/Cryptexes/App/usr/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -63,23 +67,16 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "message-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Darwin - 24.6.0 - arm64
+      The system is: Darwin - 24.2.0 - arm64
   -
     kind: "find-v1"
     backtrace:
@@ -101,10 +98,12 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -114,18 +113,15 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
-      - "/Users/bytedance/.local/bin/gmake"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/gmake"
+      - "/opt/homebrew/opt/openjdk@17/bin/gmake"
+      - "/Users/matts/.local/bin/gmake"
+      - "/Users/matts/.local/share/nvim/mason/bin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/opt/homebrew/sbin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/gmake"
       - "/usr/local/bin/gmake"
       - "/System/Cryptexes/App/usr/bin/gmake"
       - "/usr/bin/gmake"
@@ -135,26 +131,28 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
-      - "/usr/local/sbin/gmake"
-      - "/usr/local/go/bin/gmake"
-      - "/opt/puppetlabs/bin/gmake"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/gmake"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/gmake"
       - "/Applications/iTerm.app/Contents/Resources/utilities/gmake"
-      - "/Applications/GoLand.app/Contents/MacOS/gmake"
-      - "/Users/bytedance/.local/bin/make"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/make"
+      - "/opt/gradle/gradle-8.8/bin/gmake"
+      - "/opt/homebrew/opt/openjdk@17/bin/make"
+      - "/Users/matts/.local/bin/make"
+      - "/Users/matts/.local/share/nvim/mason/bin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/make"
       - "/usr/local/bin/make"
       - "/System/Cryptexes/App/usr/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -164,16 +162,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -200,10 +191,12 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -213,27 +206,29 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
-      - "/Users/bytedance/.local/bin/c++"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/c++"
+      - "/opt/homebrew/opt/openjdk@17/bin/c++"
+      - "/Users/matts/.local/bin/c++"
+      - "/Users/matts/.local/share/nvim/mason/bin/c++"
       - "/opt/homebrew/bin/c++"
       - "/opt/homebrew/sbin/c++"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/c++"
       - "/usr/local/bin/c++"
       - "/System/Cryptexes/App/usr/bin/c++"
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -243,16 +238,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -280,10 +268,15 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -293,16 +286,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -323,7 +309,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/4.2.2/CompilerIdCXX/a.out
+        /Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/4.2.2/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -336,32 +322,19 @@ events:
         # 1 "apple-sdk.cpp"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
-        # 514 "<built-in>" 3
+        # 428 "<built-in>" 3
         # 1 "<command line>" 1
         # 1 "<built-in>" 2
         # 1 "apple-sdk.cpp" 2
         # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
-        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
-        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
-        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
-        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
-        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
-        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 243 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
         # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
-        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 165 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
         # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
-        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 166 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
         # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
-        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
-        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
-        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
-        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
-        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
-        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
-        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
-        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
-        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
-        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 167 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 244 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
         # 2 "apple-sdk.cpp" 2
         
         
@@ -387,10 +360,12 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -399,20 +374,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -422,16 +397,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -453,10 +421,12 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -465,20 +435,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -488,16 +458,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -519,10 +482,12 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -531,20 +496,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -554,16 +519,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -585,10 +543,12 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -597,20 +557,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -620,16 +580,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -651,10 +604,12 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -663,20 +618,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -686,16 +641,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -717,10 +665,12 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -729,20 +679,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -752,16 +702,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -783,10 +726,12 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -795,19 +740,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/Users/bytedance/.local/bin/objcopy"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/objcopy"
+      - "/opt/homebrew/opt/openjdk@17/bin/objcopy"
+      - "/Users/matts/.local/bin/objcopy"
+      - "/Users/matts/.local/share/nvim/mason/bin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/opt/homebrew/sbin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objcopy"
       - "/usr/local/bin/objcopy"
       - "/System/Cryptexes/App/usr/bin/objcopy"
       - "/bin/objcopy"
@@ -816,20 +758,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
-      - "/usr/local/sbin/objcopy"
-      - "/usr/local/go/bin/objcopy"
-      - "/opt/puppetlabs/bin/objcopy"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/objcopy"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/objcopy"
       - "/Applications/iTerm.app/Contents/Resources/utilities/objcopy"
-      - "/Applications/GoLand.app/Contents/MacOS/objcopy"
+      - "/opt/gradle/gradle-8.8/bin/objcopy"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -839,16 +781,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -870,10 +805,12 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -882,19 +819,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/Users/bytedance/.local/bin/readelf"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/readelf"
+      - "/opt/homebrew/opt/openjdk@17/bin/readelf"
+      - "/Users/matts/.local/bin/readelf"
+      - "/Users/matts/.local/share/nvim/mason/bin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/opt/homebrew/sbin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/readelf"
       - "/usr/local/bin/readelf"
       - "/System/Cryptexes/App/usr/bin/readelf"
       - "/bin/readelf"
@@ -903,20 +837,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
-      - "/usr/local/sbin/readelf"
-      - "/usr/local/go/bin/readelf"
-      - "/opt/puppetlabs/bin/readelf"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/readelf"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/readelf"
       - "/Applications/iTerm.app/Contents/Resources/utilities/readelf"
-      - "/Applications/GoLand.app/Contents/MacOS/readelf"
+      - "/opt/gradle/gradle-8.8/bin/readelf"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -926,16 +860,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -957,10 +884,12 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -969,19 +898,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/Users/bytedance/.local/bin/dlltool"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/dlltool"
+      - "/opt/homebrew/opt/openjdk@17/bin/dlltool"
+      - "/Users/matts/.local/bin/dlltool"
+      - "/Users/matts/.local/share/nvim/mason/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/System/Cryptexes/App/usr/bin/dlltool"
       - "/bin/dlltool"
@@ -990,20 +916,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
-      - "/usr/local/sbin/dlltool"
-      - "/usr/local/go/bin/dlltool"
-      - "/opt/puppetlabs/bin/dlltool"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/dlltool"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/dlltool"
       - "/Applications/iTerm.app/Contents/Resources/utilities/dlltool"
-      - "/Applications/GoLand.app/Contents/MacOS/dlltool"
+      - "/opt/gradle/gradle-8.8/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1013,16 +939,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1044,10 +963,12 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -1056,19 +977,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/Users/bytedance/.local/bin/addr2line"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/addr2line"
+      - "/opt/homebrew/opt/openjdk@17/bin/addr2line"
+      - "/Users/matts/.local/bin/addr2line"
+      - "/Users/matts/.local/share/nvim/mason/bin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/opt/homebrew/sbin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/addr2line"
       - "/usr/local/bin/addr2line"
       - "/System/Cryptexes/App/usr/bin/addr2line"
       - "/bin/addr2line"
@@ -1077,20 +995,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
-      - "/usr/local/sbin/addr2line"
-      - "/usr/local/go/bin/addr2line"
-      - "/opt/puppetlabs/bin/addr2line"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/addr2line"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/addr2line"
       - "/Applications/iTerm.app/Contents/Resources/utilities/addr2line"
-      - "/Applications/GoLand.app/Contents/MacOS/addr2line"
+      - "/opt/gradle/gradle-8.8/bin/addr2line"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1100,16 +1018,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1131,10 +1042,12 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/bin/"
@@ -1143,19 +1056,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/Users/bytedance/.local/bin/tapi"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/tapi"
+      - "/opt/homebrew/opt/openjdk@17/bin/tapi"
+      - "/Users/matts/.local/bin/tapi"
+      - "/Users/matts/.local/share/nvim/mason/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi"
       - "/usr/local/bin/tapi"
       - "/System/Cryptexes/App/usr/bin/tapi"
       - "/bin/tapi"
@@ -1164,20 +1074,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
-      - "/usr/local/sbin/tapi"
-      - "/usr/local/go/bin/tapi"
-      - "/opt/puppetlabs/bin/tapi"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/tapi"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/tapi"
       - "/Applications/iTerm.app/Contents/Resources/utilities/tapi"
-      - "/Applications/GoLand.app/Contents/MacOS/tapi"
+      - "/opt/gradle/gradle-8.8/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1187,16 +1097,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1217,10 +1120,12 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/Users/bytedance/.local/bin/"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/"
+      - "/opt/homebrew/opt/openjdk@17/bin/"
+      - "/Users/matts/.local/bin/"
+      - "/Users/matts/.local/share/nvim/mason/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -1230,27 +1135,29 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/go/bin/"
-      - "/opt/puppetlabs/bin/"
-      - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg/"
-      - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path/"
       - "/Applications/iTerm.app/Contents/Resources/utilities/"
-      - "/Applications/GoLand.app/Contents/MacOS/"
+      - "/opt/gradle/gradle-8.8/bin/"
     searched_directories:
-      - "/Users/bytedance/.local/bin/install_name_tool"
-      - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec/install_name_tool"
+      - "/opt/homebrew/opt/openjdk@17/bin/install_name_tool"
+      - "/Users/matts/.local/bin/install_name_tool"
+      - "/Users/matts/.local/share/nvim/mason/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/install_name_tool"
       - "/usr/local/bin/install_name_tool"
       - "/System/Cryptexes/App/usr/bin/install_name_tool"
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/Users/matts/.local/share/nvim/mason/bin"
+        - "/opt/homebrew/opt/openjdk@17/bin"
+        - "/Users/matts/.local/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
         - "/usr/bin"
@@ -1260,16 +1167,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/go/bin"
-        - "/opt/puppetlabs/bin"
-        - "/Users/bytedance/.codex/tmp/path/codex-arg04N37yg"
-        - "/opt/homebrew/lib/node_modules/@openai/codex/vendor/aarch64-apple-darwin/path"
-        - "/Users/bytedance/.local/bin"
-        - "/opt/homebrew/Cellar/go@1.24/1.24.9/libexec"
         - "/Applications/iTerm.app/Contents/Resources/utilities"
-        - "/Applications/GoLand.app/Contents/MacOS"
-        - "/Applications/GoLand.app/Contents/MacOS"
+        - "/opt/gradle/gradle-8.8/bin"
+        - "/opt/gradle/gradle-8.8/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1280,8 +1180,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn"
-      binary: "/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn"
+      source: "/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS"
+      binary: "/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1294,52 +1194,46 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn'
+        Change Dir: '/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6ebe/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b6ebe.dir/build.make CMakeFiles/cmTC_b6ebe.dir/build
-        Building CXX object CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        Apple clang version 17.0.0 (clang-1700.4.4.1)
-        Target: arm64-apple-darwin24.6.0
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_26a93/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_26a93.dir/build.make CMakeFiles/cmTC_26a93.dir/build
+        Building CXX object CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin24.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin24.6.0
-        ignoring nonexistent directory "/usr/local/include"
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin24.2.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
+         /usr/local/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
-         /Library/Developer/CommandLineTools/usr/lib/clang/17/include
+         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
-         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_b6ebe
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ebe.dir/link.txt --verbose=1
-        Apple clang version 17.0.0 (clang-1700.4.4.1)
-        Target: arm64-apple-darwin24.6.0
+        Linking CXX executable cmTC_26a93
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a93.dir/link.txt --verbose=1
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin24.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b6ebe -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld PROJECT:ld-1230.1
-        BUILD 16:18:08 Oct 17 2025
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
-        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
-        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
-        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.3.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_26a93 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:29 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
         Library search paths:
         	/usr/local/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6ebe
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_26a93
         
       exitCode: 0
   -
@@ -1361,16 +1255,18 @@ events:
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
+          add: [/usr/local/include]
           add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
-          add: [/Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
           add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
           add: [/Library/Developer/CommandLineTools/usr/include]
         end of search list found
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
         collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
-        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/17/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
         collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
-        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/usr/local/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
       
       
   -
@@ -1383,39 +1279,37 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn']
+        ignore line: [Change Dir: '/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6ebe/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b6ebe.dir/build.make CMakeFiles/cmTC_b6ebe.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
-        ignore line: [Target: arm64-apple-darwin24.6.0]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_26a93/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_26a93.dir/build.make CMakeFiles/cmTC_26a93.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin24.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-PwSDmn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin24.6.0]
-        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.3.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/CMakeScratch/TryCompile-80AoDS" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin24.2.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/local/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_b6ebe]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ebe.dir/link.txt --verbose=1]
-        ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
-        ignore line: [Target: arm64-apple-darwin24.6.0]
+        ignore line: [Linking CXX executable cmTC_26a93]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a93.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin24.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b6ebe -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.3.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_26a93 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1425,35 +1319,32 @@ events:
           arg [arm64] ==> ignore
           arg [-platform_version] ==> ignore
           arg [macos] ==> ignore
-          arg [15.0.0] ==> ignore
-          arg [26.1] ==> ignore
+          arg [13.3.0] ==> ignore
+          arg [13.3] ==> ignore
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
-          arg [-mllvm] ==> ignore
-          arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b6ebe] ==> ignore
+          arg [cmTC_26a93] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b6ebe.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_26a93.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
-          arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
         linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
-        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
-        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
         remove lib [System]
-        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
         collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
         collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
-        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
-        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         implicit libs: [c++]
         implicit objs: []
-        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
         implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
       
       
@@ -1466,10 +1357,9 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
-      @(#)PROGRAM:ld PROJECT:ld-1230.1
-      BUILD 16:18:08 Oct 17 2025
-      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
-      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
-      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
-      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+      @(#)PROGRAM:ld  PROJECT:ld64-857.1
+      BUILD 23:13:29 May  7 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 14.0.3, (clang-1403.0.22.14.1) (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 14.0.3 (tapi-1403.0.5.1)
 ...

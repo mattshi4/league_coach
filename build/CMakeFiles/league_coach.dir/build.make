@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/Documents/unsw/personal/league_coach
+CMAKE_SOURCE_DIR = "/Users/matts/Documents/Personal projects/league_coach"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/Documents/unsw/personal/league_coach/build
+CMAKE_BINARY_DIR = "/Users/matts/Documents/Personal projects/league_coach/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/league_coach.dir/depend.make
@@ -73,60 +73,60 @@ CMakeFiles/league_coach.dir/codegen:
 .PHONY : CMakeFiles/league_coach.dir/codegen
 
 CMakeFiles/league_coach.dir/src/main.cpp.o: CMakeFiles/league_coach.dir/flags.make
-CMakeFiles/league_coach.dir/src/main.cpp.o: /Users/bytedance/Documents/unsw/personal/league_coach/src/main.cpp
+CMakeFiles/league_coach.dir/src/main.cpp.o: /Users/matts/Documents/Personal\ projects/league_coach/src/main.cpp
 CMakeFiles/league_coach.dir/src/main.cpp.o: CMakeFiles/league_coach.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/league_coach.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/main.cpp.o -MF CMakeFiles/league_coach.dir/src/main.cpp.o.d -o CMakeFiles/league_coach.dir/src/main.cpp.o -c /Users/bytedance/Documents/unsw/personal/league_coach/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/league_coach.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/main.cpp.o -MF CMakeFiles/league_coach.dir/src/main.cpp.o.d -o CMakeFiles/league_coach.dir/src/main.cpp.o -c "/Users/matts/Documents/Personal projects/league_coach/src/main.cpp"
 
 CMakeFiles/league_coach.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/league_coach.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/Documents/unsw/personal/league_coach/src/main.cpp > CMakeFiles/league_coach.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/matts/Documents/Personal projects/league_coach/src/main.cpp" > CMakeFiles/league_coach.dir/src/main.cpp.i
 
 CMakeFiles/league_coach.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/league_coach.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/Documents/unsw/personal/league_coach/src/main.cpp -o CMakeFiles/league_coach.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/matts/Documents/Personal projects/league_coach/src/main.cpp" -o CMakeFiles/league_coach.dir/src/main.cpp.s
 
 CMakeFiles/league_coach.dir/src/controller.cpp.o: CMakeFiles/league_coach.dir/flags.make
-CMakeFiles/league_coach.dir/src/controller.cpp.o: /Users/bytedance/Documents/unsw/personal/league_coach/src/controller.cpp
+CMakeFiles/league_coach.dir/src/controller.cpp.o: /Users/matts/Documents/Personal\ projects/league_coach/src/controller.cpp
 CMakeFiles/league_coach.dir/src/controller.cpp.o: CMakeFiles/league_coach.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/league_coach.dir/src/controller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/controller.cpp.o -MF CMakeFiles/league_coach.dir/src/controller.cpp.o.d -o CMakeFiles/league_coach.dir/src/controller.cpp.o -c /Users/bytedance/Documents/unsw/personal/league_coach/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/league_coach.dir/src/controller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/controller.cpp.o -MF CMakeFiles/league_coach.dir/src/controller.cpp.o.d -o CMakeFiles/league_coach.dir/src/controller.cpp.o -c "/Users/matts/Documents/Personal projects/league_coach/src/controller.cpp"
 
 CMakeFiles/league_coach.dir/src/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/league_coach.dir/src/controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/Documents/unsw/personal/league_coach/src/controller.cpp > CMakeFiles/league_coach.dir/src/controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/matts/Documents/Personal projects/league_coach/src/controller.cpp" > CMakeFiles/league_coach.dir/src/controller.cpp.i
 
 CMakeFiles/league_coach.dir/src/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/league_coach.dir/src/controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/Documents/unsw/personal/league_coach/src/controller.cpp -o CMakeFiles/league_coach.dir/src/controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/matts/Documents/Personal projects/league_coach/src/controller.cpp" -o CMakeFiles/league_coach.dir/src/controller.cpp.s
 
 CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o: CMakeFiles/league_coach.dir/flags.make
-CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o: /Users/bytedance/Documents/unsw/personal/league_coach/src/screenshot_agent.cpp
+CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o: /Users/matts/Documents/Personal\ projects/league_coach/src/screenshot_agent.cpp
 CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o: CMakeFiles/league_coach.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o -MF CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o.d -o CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o -c /Users/bytedance/Documents/unsw/personal/league_coach/src/screenshot_agent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o -MF CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o.d -o CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o -c "/Users/matts/Documents/Personal projects/league_coach/src/screenshot_agent.cpp"
 
 CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/Documents/unsw/personal/league_coach/src/screenshot_agent.cpp > CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/matts/Documents/Personal projects/league_coach/src/screenshot_agent.cpp" > CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.i
 
 CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/Documents/unsw/personal/league_coach/src/screenshot_agent.cpp -o CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/matts/Documents/Personal projects/league_coach/src/screenshot_agent.cpp" -o CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.s
 
 CMakeFiles/league_coach.dir/src/league_coach.cpp.o: CMakeFiles/league_coach.dir/flags.make
-CMakeFiles/league_coach.dir/src/league_coach.cpp.o: /Users/bytedance/Documents/unsw/personal/league_coach/src/league_coach.cpp
+CMakeFiles/league_coach.dir/src/league_coach.cpp.o: /Users/matts/Documents/Personal\ projects/league_coach/src/league_coach.cpp
 CMakeFiles/league_coach.dir/src/league_coach.cpp.o: CMakeFiles/league_coach.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/league_coach.dir/src/league_coach.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/league_coach.cpp.o -MF CMakeFiles/league_coach.dir/src/league_coach.cpp.o.d -o CMakeFiles/league_coach.dir/src/league_coach.cpp.o -c /Users/bytedance/Documents/unsw/personal/league_coach/src/league_coach.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/league_coach.dir/src/league_coach.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/league_coach.dir/src/league_coach.cpp.o -MF CMakeFiles/league_coach.dir/src/league_coach.cpp.o.d -o CMakeFiles/league_coach.dir/src/league_coach.cpp.o -c "/Users/matts/Documents/Personal projects/league_coach/src/league_coach.cpp"
 
 CMakeFiles/league_coach.dir/src/league_coach.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/league_coach.dir/src/league_coach.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/Documents/unsw/personal/league_coach/src/league_coach.cpp > CMakeFiles/league_coach.dir/src/league_coach.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/matts/Documents/Personal projects/league_coach/src/league_coach.cpp" > CMakeFiles/league_coach.dir/src/league_coach.cpp.i
 
 CMakeFiles/league_coach.dir/src/league_coach.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/league_coach.dir/src/league_coach.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/Documents/unsw/personal/league_coach/src/league_coach.cpp -o CMakeFiles/league_coach.dir/src/league_coach.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/matts/Documents/Personal projects/league_coach/src/league_coach.cpp" -o CMakeFiles/league_coach.dir/src/league_coach.cpp.s
 
 # Object files for target league_coach
 league_coach_OBJECTS = \
@@ -144,7 +144,7 @@ league_coach: CMakeFiles/league_coach.dir/src/screenshot_agent.cpp.o
 league_coach: CMakeFiles/league_coach.dir/src/league_coach.cpp.o
 league_coach: CMakeFiles/league_coach.dir/build.make
 league_coach: CMakeFiles/league_coach.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable league_coach"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable league_coach"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/league_coach.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/league_coach.dir/clean:
 .PHONY : CMakeFiles/league_coach.dir/clean
 
 CMakeFiles/league_coach.dir/depend:
-	cd /Users/bytedance/Documents/unsw/personal/league_coach/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bytedance/Documents/unsw/personal/league_coach /Users/bytedance/Documents/unsw/personal/league_coach /Users/bytedance/Documents/unsw/personal/league_coach/build /Users/bytedance/Documents/unsw/personal/league_coach/build /Users/bytedance/Documents/unsw/personal/league_coach/build/CMakeFiles/league_coach.dir/DependInfo.cmake "--color=$(COLOR)" league_coach
+	cd "/Users/matts/Documents/Personal projects/league_coach/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/matts/Documents/Personal projects/league_coach" "/Users/matts/Documents/Personal projects/league_coach" "/Users/matts/Documents/Personal projects/league_coach/build" "/Users/matts/Documents/Personal projects/league_coach/build" "/Users/matts/Documents/Personal projects/league_coach/build/CMakeFiles/league_coach.dir/DependInfo.cmake" "--color=$(COLOR)" league_coach
 .PHONY : CMakeFiles/league_coach.dir/depend
 
