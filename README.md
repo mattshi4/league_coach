@@ -45,13 +45,18 @@ Another problem... The per day request limits are so low! Gemini will give you a
 a day for each of their models. And so there is a question of how are we going to run the models? 
 Some ideas:
 - I could create a model dispatch class which will send requests to different from different 
-providers until we run out of requests (not enough free API resources out there)
+providers until we run out of requests (there are very few free API resources out there)
 - Train our own model (don't have the hardware for this) to run locally
 - Use an open source model, run it locally and set up a RAG on league information (also don't 
 have the hardware)
 - I have a chatGPT Pro subscription, perhaps I can find some way to inject the prompt into 
-an open chrome tab? Cross process communication is pretty difficult though (seems to be the 
-only solution we have)
+an open chrome tab? (this is an insanely tacky solution)
+<br>
+So instead maybe we can re-visit the RAG on open source model idea. However we will host the model 
+on cloud (can use google cloud free trial or something) and rent a GPU. Expose this model 
+through a http endpoint and we can call it from this app. Like having our own gemini API but 
+the budget version. Alternatively hijack cousin's gaming PC. This will be a phase 3 kind of 
+approach though. For now, we will just do model dispatching. 
 # Random Unrelated Idea Dump
 Next possible project idea: a news trader. Determines if a piece of news is novel - 
 aka has not been reported before. Determine what cryptos this may impact, and performs
