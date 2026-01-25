@@ -51,7 +51,7 @@ providers until we run out of requests (there are very few free API resources ou
 have the hardware)
 - I have a chatGPT Pro subscription, perhaps I can find some way to inject the prompt into 
 an open chrome tab? (this is an insanely tacky solution)
-<br>
+
 So instead maybe we can re-visit the RAG on open source model idea. However we will host the model 
 on cloud (can use google cloud free trial or something) and rent a GPU. Expose this model 
 through a http endpoint and we can call it from this app. Like having our own gemini API but 
