@@ -22,13 +22,14 @@ some mechanism to signify program end and allow clean up.
 The idea is that one should use this as a coach of sorts to improve their own analytical abilities.
 # Development Phases
 ## PHASE 1:
-Get basic screenshot_agent, controller, analyst functionality running. Make sure
-cMake can at least run. No error handling
+Get basic screenshot_agent, controller, analyst functionality running. No error handling or testing. 
+For now we will store all chat history for genai.
 ## PHASE 2:
-Testing. Try actually use it and see what happens. Output to terminal (cout). Add error handling 
+Testing and error handling
 (use AI for this, make sure git is set up at this point so we can review AI changes)
 ## PHASE 3:
-Refine prompt so that it is more useful
+Optimise prompt, explore the non-essential features (cool to have things like a RAG, 
+taking screenshots using the mac API rather than a shell command etc.)
 ## PHASE 4:
 Vibecode a frontend, then using our learnings we can hit plat with ease
 # Development journal
@@ -39,6 +40,12 @@ simply maintain the chat history in some struct. This begs the question though, 
 are we storing abou the chat history? If we store all the images and all the responses this seems
 like in a 30 minutes league game, the costs would blow up. Pro games tend to not be that long, 
 but regardless resurces usage is something we should consider.
+<br><br>
+Another problem... The per day request limits are so low! Gemini will give you about 20 requests
+a day for each of their models. However, it is unique to each model soooo perhaps we will unify
+model calls in another entity C. We can call this entity model_dispatch. It will evaluate 
+our rate limits for models that are good enough to produce real output for our use case. Then 
+it will make calls to them.
 # Random Unrelated Idea Dump
 Next possible project idea: a news trader. Determines if a piece of news is novel - 
 aka has not been reported before. Determine what cryptos this may impact, and performs
