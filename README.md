@@ -42,10 +42,16 @@ like in a 30 minutes league game, the costs would blow up. Pro games tend to not
 but regardless resurces usage is something we should consider.
 <br><br>
 Another problem... The per day request limits are so low! Gemini will give you about 20 requests
-a day for each of their models. However, it is unique to each model soooo perhaps we will unify
-model calls in another entity C. We can call this entity model_dispatch. It will evaluate 
-our rate limits for models that are good enough to produce real output for our use case. Then 
-it will make calls to them.
+a day for each of their models. And so there is a question of how are we going to run the models? 
+Some ideas:
+- I could create a model dispatch class which will send requests to different from different 
+providers until we run out of requests (not enough free API resources out there)
+- Train our own model (don't have the hardware for this) to run locally
+- Use an open source model, run it locally and set up a RAG on league information (also don't 
+have the hardware)
+- I have a chatGPT Pro subscription, perhaps I can find some way to inject the prompt into 
+an open chrome tab? Cross process communication is pretty difficult though (seems to be the 
+only solution we have)
 # Random Unrelated Idea Dump
 Next possible project idea: a news trader. Determines if a piece of news is novel - 
 aka has not been reported before. Determine what cryptos this may impact, and performs
